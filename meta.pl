@@ -245,7 +245,7 @@ for my $ref (@results) {
     	});
 	} else {
 	if ($date > $latest){
-		print "Ongoing,.....(neustes Dokument $dt)","\n";
+		print "Ongoing,.....(newest document $dt)","\n";
 		$collect->insert( {
     	EmailID => $ref->{'EmailID'},
     	IsoDate => $ref->{'IsoDate'},
