@@ -32,4 +32,4 @@ Push Postfix Logs to a mongodb with Perl
         #/var/log/mail.err
         #/var/log/mail.log
 
-- For deprecation warning on modern systems edit insert to insert_one in scripts.
+- For deprecation warning on modern systems change "insert" to "insert_one" in scripts.
