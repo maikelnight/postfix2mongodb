@@ -3,7 +3,8 @@ Push Postfix Logs to a mongodb with Perl
 
 - Edit MongoDB Servers and Login Data in Scripts.
 - Edit the postfix logfile to what you got. Nowadays it seems to be mail.log
-- Use meta.pl --initial for first time push to access all compressed logs and then use meta.pl without argument for ongoing push (customize the logging daemon for longer results by create for example /etc/logrotate.d/mail). 
+- Use meta.pl --initial for first time push to access all compressed logs and then use meta.pl without argument for ongoing push
+- You may customize the logging daemon for longer results by create (for example) /etc/logrotate.d/mail 
 
         Example
 
