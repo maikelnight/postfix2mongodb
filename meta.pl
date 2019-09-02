@@ -258,8 +258,9 @@ for my $ref (@results) {
 	    Status => $ref->{'Status'},
 	    StatusInfo => $ref->{'StatusInfo'},
     });
+    
 	}
-  }
+    }
 }
 
 exit;
